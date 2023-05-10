@@ -133,7 +133,6 @@ section{
 section:nth-of-type(1){
     background-image: url(imagens/Banner\ \(2\).png);
     height: 600px;
-
 }
 
 html{
@@ -696,6 +695,12 @@ section{
         display: inline-block;
     }
 
+    section:nth-of-type(1){
+        width: 100%;
+        padding: 100%;
+        background-position: left;
+    }
+
     .header .navbar{
         position: absolute;
         top:100%; right: -100%;
@@ -744,6 +749,12 @@ section{
 
     html{
         font-size: 50%;
+    }
+
+    section:nth-of-type(1){
+        width: 100%;
+        padding: 100%;
+        background-position: left;
     }
 
 }
